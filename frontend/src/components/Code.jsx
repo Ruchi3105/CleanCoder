@@ -61,7 +61,7 @@ const Code = ({ FinalReview }) => {
       </div>
 
       {/* Editor Scroll Wrapper */}
-      <div className="flex-1 overflow-auto font-mono text-sm scrollbar-thin scrollbar-thumb-slate-600 scrollbar-track-slate-800 mb-3">
+      <div className="flex-1 overflow-auto font-mono text-sm scrollbar-thin scrollbar-thumb-slate-600 scrollbar-track-slate-800">
         <Editor
           value={code}
           onValueChange={(code) => setCode(code)}
@@ -72,7 +72,7 @@ const Code = ({ FinalReview }) => {
           style={{
             fontFamily: '"Fira code", "Fira Mono", monospace',
             fontSize: 16,
-            minHeight: "300px",
+            minHeight: "100%",
             outline: "none",
             whiteSpace: "pre",
           }}
