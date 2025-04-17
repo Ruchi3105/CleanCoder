@@ -13,6 +13,7 @@ const languages = {
   go: "Go",
   rust: "Rust",
   sql: "SQL",
+  html: "HTML",
   json: "JSON",
   bash: "Bash",
   typescript: "TypeScript",
